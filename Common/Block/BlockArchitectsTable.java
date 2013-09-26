@@ -9,6 +9,7 @@ public class BlockArchitectsTable extends Block{
 	public BlockArchitectsTable(int par1) {
 		super(par1, Material.wood);
 		setCreativeTab(CreativeTabs.tabDecorations);
+		setUnlocalizedName("ArchitectsTable");
 	}
 
 }
